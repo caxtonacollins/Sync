@@ -1,7 +1,7 @@
 # Sync
  Instant Local-to-Crypto Payments on StarkNet
 
-A decentralized payment gateway enabling seamless everyday transactions in local currencies (NGN, USD, EUR) with automated crypto liquidity fallback. Built on StarkNet, NexaLink bridges traditional finance and DeFi by allowing users to spend fiat while tapping into crypto reserves for instant settlements. Built on StarkNet for scalability and near-zero fees.
+A decentralized payment gateway enabling seamless everyday transactions in local currencies (NGN, USD, EUR) with automated crypto liquidity fallback. Built on StarkNet, Sync bridges traditional finance and DeFi by allowing users to spend fiat while tapping into crypto reserves for instant settlements. Built on StarkNet for scalability and near-zero fees.
 
 Core Features:
 
