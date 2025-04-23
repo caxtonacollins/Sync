@@ -4,7 +4,7 @@
 # **kcrptosync Web** 🌐  
 *Next.js Hybrid Fiat/Crypto Wallet with StarkNet Overdrafts*  
 
-![NOT PNG](https://github.com/user-attachments/assets/56cb3802-9ded-491c-a581-c02c12874ef1)
+<img src="https://github.com/user-attachments/assets/56cb3802-9ded-491c-a581-c02c12874ef1" width="800" height="300" alt="Project Screenshot" style="border: 1px solid #ddd; border-radius: 30px;">
 
 ## 🔥 Features  
 ✅ **Real-Time Overdrafts**  
