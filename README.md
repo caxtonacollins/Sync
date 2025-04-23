@@ -1,27 +1,54 @@
-# Sync
- Instant Local-to-Crypto Payments on StarkNet
 
-A decentralized payment gateway enabling seamless everyday transactions in local currencies (NGN, USD, EUR) with automated crypto liquidity fallback. Built on StarkNet, Sync bridges traditional finance and DeFi by allowing users to spend fiat while tapping into crypto reserves for instant settlements. Built on StarkNet for scalability and near-zero fees.
+---
 
-Core Features:
+# **kcrptosync Web** 🌐  
+*Next.js Hybrid Fiat/Crypto Wallet with StarkNet Overdrafts*  
 
-🪙 Dual Wallets: Non-custodial local currency and StarkNet-based crypto wallets.
+![NOT PNG](https://github.com/user-attachments/assets/56cb3802-9ded-491c-a581-c02c12874ef1)
 
-⚡ Auto-Liquidity Bridge: Instantly convert crypto to fiat during transactions if local balances are low.
+## 🔥 Features  
+✅ **Real-Time Overdrafts**  
+- Auto-convert crypto to fiat when balances are low  
+- Slippage-protected swaps via Pragma Oracle  
 
-💳 Merchant Integration: Businesses receive payments in fiat or crypto, with StarkNet-powered finality.
+✅ **Unified Dashboard**  
+- View combined fiat + crypto balances  
+- Transaction history with CSV export  
 
-🔄 Low-Cost Swaps: Optimized liquidity pools and ZK-rollups for near-zero fees.
+✅ **Web3Auth Integration**  
+- Email/Social login + custom starknet wallet  
 
-Tech Stack:
+## 🛠 Tech Stack  
+| Layer               | Technology           |
+|---------------------|----------------------|
+| **Frontend**        | Next.js 14 (App Router) |
+| **State**           | Zustand + SWR        |
+| **Blockchain**      | starknet.js v5       |
+| **UI**              | ShadCN + Tailwind    |
+| **Auth**            | NextAuth + Web3Modal |
 
-StarkNet smart contracts (Cairo)
+## 🚀 Quick Start  
+```bash
+# Fork the repo
+https://github.com/caxtonacollins/sync-frontend
+# Clone repo
+git clone https://github.com/yourorg/sync-frontend.git
+cd sync-frontend
 
-Zero-Knowledge Proofs (ZKPs) for privacy
+# Install
+yarn install
 
-NextJs/TypeScript frontend
+# Run dev server
+yarn dev
+```
 
-"Empowering real-world crypto spending, one instant payment at a time."
-
-Contribute: Help build the future of frictionless payments! 🌍💸
-
+## 🌐 Deployment  
+1. Set env vars:
+```env
+NEXT_PUBLIC_STARKNET_RPC=https://starknet-goerli.infura.io
+NEXT_PUBLIC_CONTRACT_ADDRESS=0x123...
+```
+2. Deploy to Vercel:
+```bash
+vercel --prod
+```
