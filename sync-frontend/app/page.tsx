@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import ColorTest from "./components/ColorTest";
 import Footer from "./components/Footer";
-import MultipleOptions from "./components/PopulaWallet";
+import PopularWallet from "./components/PopulaWallet";
 
 export default function TestPage() {
   return (
@@ -24,7 +24,7 @@ export default function TestPage() {
         
         </div>
       </motion.div>
-       {/* < MultipleOptions/>  */}
+     < PopularWallet/>
       <Footer/>
     </main>
   );
