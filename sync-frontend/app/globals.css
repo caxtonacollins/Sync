@@ -101,3 +101,7 @@
     @apply bg-background text-foreground;
   }
 }
+.custom-gradient-bg {
+  background: linear-gradient(163.5deg, #12056A 1.15%, #1A1A41 18.57%, #0E1032 34.61%),
+              linear-gradient(348.8deg, #12056A 2.44%, #09092E 14.03%, #000617 30.32%, rgba(0, 6, 23, 0) 32.63%);
+}
